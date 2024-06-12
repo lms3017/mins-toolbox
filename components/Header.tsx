@@ -1,9 +1,10 @@
 import React from 'react';
+import Avatar from './Avatar';
 
 function Header() {
   return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold">Authentication</h1>
+    <div className="flex justify-end py-2.5 px-6">
+      <Avatar />
     </div>
   );
 }
