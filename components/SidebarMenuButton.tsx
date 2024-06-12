@@ -17,7 +17,9 @@ function SidebarMenuButton({ href, menuIcon, children }: SidebarMenuButtonProps)
     <Link
       href={href}
       className={`block py-2.5 px-4 rounded-3xl transition duration-200 ${
-        isActive ? 'bg-primary-200 hover:bg-primary-200' : 'active:bg-primary-200 hover:bg-primary-100'
+        isActive
+          ? 'bg-primary-200 dark:bg-primary-500 hover:bg-primary-200 dark:hover:bg-primary-500'
+          : 'active:bg-primary-200 hover:bg-primary-100 dark:active:bg-primary-500 dark:hover:bg-primary-300'
       }`}
     >
       <div className="flex items-center space-x-2">

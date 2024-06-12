@@ -5,7 +5,7 @@ import { TiChartLine } from 'react-icons/ti';
 
 function SideBar() {
   return (
-    <div className="bg-gray-100 w-64 h-screen border-gray-200 border-r-2">
+    <div className="bg-background-light2 dark:bg-background-dark2 w-64 h-screen border-gray-200 dark:border-gray-900 border-r-2">
       <div className="p-4 bg-primary-600 text-white">
         <h1 className="text-xl font-bold">{"Min's Toolbox"}</h1>
       </div>

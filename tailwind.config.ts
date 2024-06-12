@@ -9,7 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: '#F5F5F5',
+        background: {
+          light1: '#F5F5F5',
+          dark1: '#0e1d2f',
+          light2: '',
+          dark2: '#0b1a2b',
+        },
         primary: {
           100: '#dae9fb',
           200: '#b6d2f8',
@@ -25,5 +30,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  darkMode: 'class',
 };
 export default config;
