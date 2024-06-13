@@ -1,7 +1,5 @@
-import SideBar from './SideBar';
-import Header from './Header';
-import SidebarMenuButton from './SidebarMenuButton';
-import Avatar from './Avatar';
-import DisplayModeButton from './DisplayModeButton';
-
-export { SideBar, Header, SidebarMenuButton, Avatar, DisplayModeButton };
+export { default as SideBar } from './SideBar';
+export { default as Header } from './Header';
+export { default as SidebarMenuButton } from './SidebarMenuButton';
+export { default as Avatar } from './Avatar';
+export { default as DisplayModeButton } from './DisplayModeButton';
