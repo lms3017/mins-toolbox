@@ -16,9 +16,9 @@ function SidebarMenuButton({ href, menuIcon, children }: SidebarMenuButtonProps)
   return (
     <Link
       href={href}
-      className={`block py-2.5 px-4 rounded-3xl transition duration-200 ${
+      className={`block py-2.5 m-2 px-4 rounded-xl transition duration-200 ${
         isActive
-          ? 'bg-primary-200 dark:bg-primary-500 hover:bg-primary-200 dark:hover:bg-primary-500'
+          ? 'text-primary-500'
           : 'active:bg-primary-200 hover:bg-primary-100 dark:active:bg-primary-500 dark:hover:bg-primary-300'
       }`}
     >
